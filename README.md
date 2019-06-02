@@ -35,7 +35,25 @@ The album that the song is from
 LIRI will read input from random.txt file and execute one of the above processes depending on the contents of the file. 
 
 **Screenshots**
-![How to Spotify a Song](screenshots/spotify.png)
+![How to Spotify a Song](screenshots/spotify.png "How to Spotify a Song")
 
-**API Reference**
+![How to OMDB a Movie](screenshots/movie.png "How to OMDB a Movie")
+
+![How to Look Up Concerts on BandsInTown](screenshots/concert.png "How to Look Up Concerts on BandsInTown")
+
+![How to Read Input from random.txt](screenshots/dowhatitsays.png "How to Read Input from random.txt")
+
+**API and NPM Reference**
+
+* [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
+
+* [Axios](https://www.npmjs.com/package/axios)
+
+* You'll use Axios to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+
+* [Moment](https://www.npmjs.com/package/moment)
+
+* [DotEnv](https://www.npmjs.com/package/dotenv)
+
+
 
