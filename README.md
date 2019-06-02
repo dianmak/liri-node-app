@@ -35,7 +35,7 @@ The album that the song is from
 LIRI will read input from random.txt file and execute one of the above processes depending on the contents of the file. 
 
 **Screenshots**
-![How to Spotify a Song](images/spotify.png)
+![How to Spotify a Song](screenshots/spotify.png)
 
 **API Reference**
 
