@@ -1,21 +1,24 @@
 require("dotenv").config();
-
 const keys = require("./keys.js");
 
+// Include required npm packages
 const moment = require("moment");
 const axios = require("axios");
 const Spotify = require("node-spotify-api");
 const fs = require("fs");
 
+// Store command line arguments
 let command = process.argv[2];
 let subject = process.argv[3];
 
+// If commands are to be loaded from random.txt
 if (command === "do-what-it-says") {
     doWhatItSays();
 }
-
+// else, use command from command line
 else run(command, subject);
 
+// Function to read random.txt and get the 
 function doWhatItSays() {
     let input;
     fs.readFile("random.txt", "utf8", function (err, data) {
